@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalice.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <main class="main">
+      <aside class="sidebar">
+        <div class="sidebar__wrapper">
+          <figure class="sidebar__picture">
+            <img src="./assets/img/profile.png" alt="mi-foto" />
+          </figure>
+
+          <div class="sidebar__bio">
+            <p>Fullstack Web Developer and programmer entusiastic!</p>
+            <p>wilsonmv90@gmail.com</p>
+          </div>
+
+          <ul class="sidebar__social">
+            <li class="sidebar__badge">
+              <a
+                href="https://www.linkedin.com/in/wilsonmaldonado/"
+                target="blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="sidebar__badge">
+              <a href="https://github.com/wilsonmv90" target="blank">
+                <i class="fa-brands fa-github-alt"></i>
+              </a>
+            </li>
+          </ul>
+
+          <hr class="sidebar__line" />
+
+          <ul class="sidebar__flex">
+            <li class="sidebar__link">
+              <a class="sidebar__item" href="#home">
+                <i class="fa-solid fa-home icon__sidebar"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="sidebar__link">
+              <a class="sidebar__item" href="#about">
+                <i class="fa-solid fa-user icon__sidebar"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="sidebar__link">
+              <a class="sidebar__item" href="#portfolio">
+                <i class="fa-solid fa-laptop-code icon__sidebar"></i>
+                <span>portfolio</span>
+              </a>
+            </li>
+            <!--       <li class="sidebar__link">
+              <a
+                target="_blank"
+                class="sidebar__item"
+                href="mailto:wilsonmv90@gmail.com">
+                <i class="fa-solid fa-address-card icon__sidebar"></i>
+                <span>Contact</span>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </aside>
+
+      <section class="section">
+        <div id="home" class="home">
+            <div class="header dark-mode-toggle">
+              <input  type="checkbox" id="dark-mode-switch">
+              <label class="toggle-btn theme-btn theme-color" for="dark-mode-switch">
+                <i class="fa-solid fa-moon "></i>
+                <i class="fa-solid fa-sun "></i>
+              </label>
+            </div>
+
+          <div class="home__wrapper">
+            <div class="home__description">
+              <h1>wilson maldonado</h1>
+              <div class="home__tagline">
+                <i class="fas fa-angle-right"></i>
+                <span id="text-typing">Javascript</span>
+              </div>
+
+              <div class="home__bio">
+                I'm a JavaScript fullstack developer specialised in frontend
+                development. Want to know more? Check out my project portfolio.
+              </div>
+              <div class="home__email">
+                <h6>
+                  wilsonmv90@gmail.com
+                  <span><i class="far fa-envelope-open"></i></span>
+                </h6>
+              </div>
+
+              <div class="home__buttons">
+                <a class="btn btn-portfolio" href="#portfolio">
+                  <img class="icon" src="./assets/svg/portfolio.svg" alt="" />
+                  <span>View</span> Portfolio</a
+                >
+                <a
+                  class="btn btn-resume"
+                  href="https://www.linkedin.com/in/wilsonmaldonado/"
+                  target="blank">
+                  <img class="icon" src="./assets/svg/resume.svg" alt="" />
+                  <span>View</span>Resume</a
+                >
+              </div>
+            </div>
+
+            <div class="skill">
+              <h2 class="title title--skill">Skills</h2>
+              <div>
+                <div class="skill__picture">
+                  <a href="#">
+                    <img src="./assets/svg/html5-plain.svg" alt="HTML5" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/css3-plain.svg" alt="CSS3" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/javascript-plain.svg" alt="JS" />
+                  </a>
+                </div>
+
+                <div class="skill__picture">
+                  <a href="#">
+                    <img
+                      src="./assets/svg/bootstrap-plain.svg"
+                      alt="BOOTSTRAP" />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./assets/svg/tailwindcss-plain.svg"
+                      alt="TAILWIND" />
+                  </a>
+                  <a href="">
+                    <img src="./assets/svg/git-plain.svg" alt="GIT" />
+                  </a>
+                </div>
+
+                <div class="skill__picture">
+                  <a href="#">
+                    <img src="./assets/svg/react-original.svg" alt="REACT" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/nextjs-original.svg" alt="NEXT" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/nodejs-plain.svg" alt="NODE" />
+                  </a>
+                </div>
+
+                <div class="skill__picture">
+                  <a href="#">
+                    <img
+                      src="./assets/svg/express-original.svg"
+                      alt="EXPRESS" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/mongodb-plain.svg" alt="MONGODB" />
+                  </a>
+                  <a href="#">
+                    <img src="./assets/svg/mysql-plain.svg" alt="MYSQL" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about" class="about">
+          <h2 class="title">About Me</h2>
+          <div class="about__wrapper">
+            <div class="about__description">
+              <p>
+                I am a full-stack web developer and technology enthusiast with
+                experience in MERN stack (Mongo, Express, React, Node).
+              </p>
+              <p>
+                I also have proficiency in HTML, CSS, CSS frameworks, version
+                control systems, database systems. Knowledge of agile
+                methodologies such as SCRUM.
+              </p>
+              <p>
+                I am a highly-motivated, result and detail-oriented,
+                self-driven, hard-working and fast learner eager to be a part of
+                a team, well-organized with an ability to prioritize tasks. I'm
+                excited about the possibility of being exposed to new
+                technologies and become a valuable member of a company.
+              </p>
+              <p>
+                Want to find out more about my experience? Check out my
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/wilsonmaldonado/"
+                  >online resume</a
+                >
+                and <a href="#portfolio">project portfolio</a>.
+              </p>
+              <button class="btn btn-cv" onclick="downloadPDF()">
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="portfolio" class="portfolio">
+          <h2 class="title">Featured Projects</h2>
+          <div class="portfolio__flex">
+            <div class="portfolio__card">
+              <h3 class="portfolio__title">Instaya App</h3>
+              <figure class="portfolio__picture">
+                <img src="./assets/img/pic01.png" alt="image" />
+              </figure>
+
+              <div class="portfolio__Buttons">
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fas fa-link"></i> Visit Site</a
+                >
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fab fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+            <div class="portfolio__card">
+              <h3 class="portfolio__title">Poke App</h3>
+              <figure class="portfolio__picture">
+                <img src="./assets/img/pic02.png" alt="image" />
+              </figure>
+
+              <div class="portfolio__Buttons">
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fas fa-link"></i> Visit Site</a
+                >
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fab fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+            <div class="portfolio__card">
+              <h3 class="portfolio__title">Rick and Morty App</h3>
+              <figure class="portfolio__picture">
+                <img src="./assets/img/pic03.png" alt="image" />
+              </figure>
+
+              <div class="portfolio__Buttons">
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fas fa-link"></i> Visit Site</a
+                >
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fab fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+            <div class="portfolio__card">
+              <h3 class="portfolio__title">Form register App</h3>
+              <figure class="portfolio__picture">
+                <img src="./assets/img/pic04.png" alt="image" />
+              </figure>
+
+              <div class="portfolio__Buttons">
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fas fa-link"></i> Visit Site</a
+                >
+                <a href="#" class="btn btn-card"
+                  ><i class="icon fab fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
